@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   //ajax
   function loadMe(){
-    $.get( 'LoadMe.html', function(data) {
+    $.get( 'loadMe.html', function(data) {
     $('.content').html(data);});
     $('.load').hide();
   };
