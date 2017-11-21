@@ -2,7 +2,7 @@ $(document).ready(function(){
   
   //ajax
   function loadMe(){
-    $.get( 'loadMe.html', function(data) {
+    $.get( 'https://jeanabbiateci.github.io/cetaitbienmieuxavant/LoadMe.html', function(data) {
     $('.content').html(data);});
     $('.load').hide();
   };
