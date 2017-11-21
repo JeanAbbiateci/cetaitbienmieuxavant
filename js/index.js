@@ -22,7 +22,7 @@ $(document).ready(function(){
     $('.content').html("");
     $('.load').removeClass('bar')
       .find('p')
-      .html('Avant, c&apos;était mieux !');
+      .html('C&apos;était mieux avant !');
     $('.load').fadeIn();
   });
   
